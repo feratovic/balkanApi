@@ -64,7 +64,7 @@ app.get("/", function (req, res) {
 
 })
 
-const PORT = 5050 || process.env.PORT;
+const PORT =  process.env.PORT || 5050;
 
 app.listen(PORT, (err, data) => {
     if(err) 
